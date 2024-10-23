@@ -2,7 +2,7 @@
 
 /**
  *  main - Print nubers from zero to ten.
- *  retun: 0
+ *  Return: 0
 */
 int main(void)
 {
