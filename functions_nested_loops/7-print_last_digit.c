@@ -9,16 +9,18 @@ int print_last_digit(int x)
 {
 	int y;
 
-	if (x >= 1 && x <= 9)
-	{
-		_putchar(x);
-	}
 	if (x < 0)
 	{
 		x = x * -1;
 	}
 
 	y = x % 10;
-	_putchar(y + 48);
+
+	if (y < 0)
+	{
+		y = -y;
+	}
+
+	_putchar(y + '0');
 	return (y);
 }
