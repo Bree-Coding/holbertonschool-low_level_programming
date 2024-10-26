@@ -1,12 +1,9 @@
 #include "main.h"
-
 /**
  * times_table - prints the nine times table
  */
-
 void times_table(void)
-{
-	int x;
+{	int x;
 	int y;
 	int r;
 
@@ -15,7 +12,10 @@ void times_table(void)
 		{	r = x * y;
 			if (y < 9)
 				{
-				if (r < 10)
+				if (y < 1)
+				{	_putchar((r % 10) + '0'); }
+
+				else if (r < 10)
 				{	_putchar(' ');
 					_putchar(' ');
 					_putchar((r % 10) + '0'); }
