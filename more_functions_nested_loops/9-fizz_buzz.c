@@ -20,7 +20,7 @@ int main(void)
 		{
 			printf("Fizz ");
 		}
-		else if (x % 5 == 100)
+		else if (x == 100)
 		{
 			printf("Buzz");
 		}
