@@ -1,11 +1,10 @@
-#ifdef main_h
+#ifndef main_h
 #define main_h
 
-int _putchar ();
+char  _putchar();
 void reset_to_98();
 void swap_int();
 int _strlen();
-void _puts();
 void _puts();
 void rev_string();
 void puts2();
