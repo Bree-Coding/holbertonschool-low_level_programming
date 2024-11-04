@@ -1,6 +1,9 @@
 #ifndef main_h
 #define main_h
 
+#include <stddef.h>
+#include <stdio.h>
+
 char  _putchar();
 void reset_to_98();
 void swap_int();
@@ -21,5 +24,13 @@ void reverse_array();
 char *string_toupper();
 char *cap_string();
 char *leet();
+char *_memset(char *s, char b, unsigned int n);
+char *_memcpy();
+char *_strchr(char *s, char c);
+unsigned int _strspn();
+char *_strpbrk();
+char *_strstr();
+void print_chessboard();
+void print_diagsums();
 
 #endif
