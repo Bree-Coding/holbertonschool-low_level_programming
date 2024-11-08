@@ -1,8 +1,7 @@
-
 #ifndef main_h
 #define main_h
 
-int _putchar()
+int _putchar();
 void _puts_recursion();
 void _print_rev_recursion();
 int _strlen_recursion();
