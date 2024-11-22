@@ -1,4 +1,4 @@
-#include "varidic_fuction.h"
+#include "variadic_functions.h"
 
 /**
  * print_strings - Function that prints strings, followed by a new line
@@ -13,17 +13,20 @@ void print_strings(const char *separator, const unsigned int n, ...)
 
 	va_start(args, n);
 
-	for (x = 0, x < n; x++)
+	for (x = 0; x < n; x++)
 	{
-	if (separator != NULL && x != (n - 1))
-	{
+		printf("%s", va_arg(args, char *));
+		if (separator != NULL && x != (n - 1))
 		{
-			printf("%s", va_args, char);
+			{
+				printf("%s", separator);
+			}
+			va_end(args);
 		}
-		printf("\n");
-		va_end(args);
-	else
-	{
-		printf("(nil)");
+		else if (separator == NULL)
+		{
+			printf("(nil)");
+		}
 	}
+	printf("\n");
 }
