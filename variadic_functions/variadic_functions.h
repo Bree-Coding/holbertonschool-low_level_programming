@@ -3,6 +3,9 @@
 
 #include <stddef.h>
 #include <stdio.h>
+#include <stdlib.h>
+#include <stddef.h>
+#include <stdarg.h>
 
 char _putchar();
 int sum_them_all(const unsigned int n, ...);
