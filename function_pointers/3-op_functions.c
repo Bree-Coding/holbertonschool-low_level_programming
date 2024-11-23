@@ -16,7 +16,7 @@ int op_add(int a, int b)
  * op_sub - Function that returns the result of a simple substration
  * @a: an variable integer
  * @b: another variable integer
- * Return: a + b
+ * Return: a - b
  */
 
 int op_sub(int a, int b)
