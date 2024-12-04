@@ -33,7 +33,7 @@ list_t *add_node(list_t **head, const char *str)
 	if (duplicate == NULL)
 	{
 		free(new_node);
-		return(NULL);
+		return (NULL);
 	}
 
 	new_node->str = duplicate;
